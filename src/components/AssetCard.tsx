@@ -2,6 +2,7 @@ import React from "react";
 import "./assetCard.scss";
 
 export interface IAssetsCard {
+  slug: string;
   url: any;
   assetsName: string;
   price: number;
